@@ -33,6 +33,7 @@ const Body = () => {
         "restaurants"
       ];
     console.log("hiii", json);
+    console.log("List",restaurantslist);
     setAllRestaurants(restaurantslist);
     setfilteredRestaurants(restaurantslist);
   }

@@ -4,6 +4,8 @@ import { IMG_CDN_URL, FETCH_MENU_URL } from "../contants";
 const useRestaurante = (resId) => {
   const [restaurant, setRestaurant] = useState([null]);
 
+  console.log("res",resId);
+
   useEffect(() => {
     getRestaurantInfo();
   }, []);
